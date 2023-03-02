@@ -5,10 +5,10 @@ App created with Django to hone in on framework skills.
 
 ## User Stories
 - As a User, when I click the View All My Finches link, I want to see a page listing all of my finches.
-- AAU, when I click on a finch in the finch list, I want to see a page that displays all the details for that finch.
-- AAU, I want to be able to navigate to separate pages for `About` and `All Finches` using a navbar.
-- AAU, when I visit the `About` page, I want to view some details about the finchcollector application.
-- AAU, when I visit the `All Finches` page, I want to view a list of all finches (index view) that displays each of the attributes of a finch.
+- As a User, when I click on a finch in the finch list, I want to see a page that displays all the details for that finch.
+- As a User, I want to be able to navigate to separate pages for `About` and `All Finches` using a navbar.
+- As a User, when I visit the `About` page, I want to view some details about the finchcollector application.
+- As a User, when I visit the `All Finches` page, I want to view a list of all finches (index view) that displays each of the attributes of a finch.
 
 
 

@@ -3,8 +3,9 @@
 
 <h1>Finch List</h1>
 
-{% for finch in finches %}
+{% for finch in finch %}
   <div class="card">
+    <a href="/finches/{{ finch.id }}">
     <div class="card-content">
       <span class="card-title">{{ finch.name }}</span>
       <p>Breed: {{ finch.breed }}</p>
@@ -14,6 +15,7 @@
       {% else %}
         <p>Age: Baby Birdie</p>
       {% endif %}
+      <a href="{% url 'detail' finch.id %}">View {{ finch.name }} details</a>
     </div>
   </div>
 {% endfor %}
